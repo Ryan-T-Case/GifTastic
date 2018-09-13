@@ -15,7 +15,43 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="bg-dark">
+    <header class="text-center bg-danger">
+        <h1 class="bg-primary">GifTastic</h1>
+        <h4>NFL Version</h4>
+    </header>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12 bg-secondary">
+                <h2>Click a Button to Generate Gifs!</h2>
+            </div>
+        </div>
+        <div class="row text-center mt-4">
+            <div class="col-md-12" id="buttonSpace">
+
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-8 text-center" id="gifSpace">
+
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-secondary">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Add Your Own Gifs Here!</h5>
+                        <form class="card-text">
+                            <div class="form-group">
+                                <input type="userInput" class="form-control" id="userInput">
+                            </div>
+                            <button type="submit" class="btn btn-primary m-1" id="submitButton">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
 
     <!-- Link to jQuery CDN Version 3.3.1 minified -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
